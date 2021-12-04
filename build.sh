@@ -324,10 +324,7 @@ fi
 mkdir -p "${WORK_DIR}"
 log "Begin ${BASE_DIR}"
 
-SAVEIFS="$IFS"
-IFS=$(echo -en "\n\b")
-
-STAGE_LIST=${STAGE_LIST:-"${BASE_DIR}"/stage*}
+STAGE_LIST=${STAGE_LIST:-${BASE_DIR}/stage*}
 
 for STAGE_DIR in $STAGE_LIST; do
 	STAGE_DIR=$(realpath "${STAGE_DIR}")
@@ -435,5 +432,3 @@ if [ "${USE_QCOW2}" = "1" ]; then
 fi
 
 log "End ${BASE_DIR}"
-
-IFS="$SAVEIFS"
