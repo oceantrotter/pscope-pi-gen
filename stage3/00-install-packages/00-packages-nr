@@ -5,5 +5,3 @@ ffmpeg
 i2c-tools
 libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
 libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
-python3-pyqt5
-python3-opengl
