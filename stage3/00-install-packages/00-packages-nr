@@ -3,6 +3,6 @@ python3-pip
 pigpio python3-pigpio raspi-gpio
 ffmpeg
 i2c-tools
-libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+libjpeg-dev libtiff5-dev libpng-dev
 libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
 libgfortran5 libatlas3-base
