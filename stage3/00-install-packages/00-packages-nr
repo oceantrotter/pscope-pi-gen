@@ -1,5 +1,6 @@
 git
 python3-pip
+python3-dev
 pigpio python3-pigpio raspi-gpio
 ffmpeg
 i2c-tools
