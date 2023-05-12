@@ -81,7 +81,10 @@ enable_uart=1
 
 dtoverlay=pps-gpio,gpiopin=4
 
-#stepper disable
+# fan control activation
+dtoverlay=gpio-fan,temp=55000,gpiopin=13
+
+# stepper disable
 gpio=4,12,13,18,19,24=op,dl
 
 [pi4]
