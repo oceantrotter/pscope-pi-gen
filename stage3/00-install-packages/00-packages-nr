@@ -6,3 +6,5 @@ i2c-tools
 libjpeg-dev libtiff5-dev libpng-dev
 libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
 libgfortran5 libatlas3-base
+libhdf5-103-1
+mosquitto mosquitto-clients
