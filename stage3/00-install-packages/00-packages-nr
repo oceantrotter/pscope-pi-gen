@@ -1,8 +1,7 @@
 git
 python3-pip
-python3-dev
 pigpio python3-pigpio raspi-gpio
-ffmpeg
+rfkill
 i2c-tools
 libjpeg-dev libtiff5-dev libpng-dev
 libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
