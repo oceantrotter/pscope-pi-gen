@@ -2,7 +2,7 @@
 
 on_chroot << EOF
   cd "/home/${FIRST_USER_NAME}/"
-  su "${FIRST_USER_NAME}" -c "pip3 install -U --no-warn-script-location -r /home/"${FIRST_USER_NAME}"/PlanktoScope/requirements.txt"
+  su "${FIRST_USER_NAME}" -c "pip3 install -U --no-warn-script-location  --platform=linux_armv7l --only-binary=:all: --target=/home/${FIRST_USER_NAME}/.local/lib/python3.9/site-packages/ -r /home/"${FIRST_USER_NAME}"/PlanktoScope/requirements.txt"
   su "${FIRST_USER_NAME}" -c "pip3 cache purge"
 EOF
 
